@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 1vh;
+    margin-right: .5vw;
+    border: .1vw solid black;
+}
+
+.correct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 1vh;
+    margin-right: .5vw;
+    border: .1vw solid black;
+    background-color: green;
+    color: white;
+}
+
+.inWord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 1vh;
+    margin-right: .5vw;
+    border: .1vw solid black;
+    background-color: orange;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 844px) {
+    .container {
+        font-size: 5vw;
+        width: 13vw;
+        height: 13vw;
+        margin-bottom: 1vh;
+        margin-right: 1.5vw;
+    }
+    .correct {
+        font-size: 5vw;
+        width: 13vw;
+        height: 13vw;
+        margin-bottom: 1vh;
+        margin-right: 1.5vw;
+    }
+    .inWord {
+        font-size: 5vw;
+        width: 13vw;
+        height: 13vw;
+        margin-bottom: 1vh;
+        margin-right: 1.5vw;
+    }
+}
